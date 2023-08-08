@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wraper{
+    display: flex;
+    width: 650px;
+    flex-wrap: wrap;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form-container{
+    align-items: center;
+    text-align: center;
+    img{
+        margin-bottom:40px;
+        max-width: 450px;
+    }
+}   
+.src-box{
+    width: 600px;
+    height: 40px;
+    border-radius: 25px;
+    border:2px solid #f6f7f9;
+    padding-left: 40px;
+    font-size: 18px;
+}
+.src-box:focus{
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
+}
+.src-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
+}
+.src-btns{
+    margin:20px;
+    input{
+        margin:5px;
+        background-color: #f6f7f9;
+        border-radius: 5px;
+        border: none;
+        height: 40px;
+        width: 140px;
+    }
+}
+.src-btns input:hover{
+    border: 1px solid grey;
+}
+.links{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    padding: 5px;
+    font-size: 15px;
+    
+    a{
+        margin: 5px;
+        text-decoration: none;
+        color:black;
+    }
+}
+// Advance search page style
+
+@media (max-width: 1250px){
+    .right-text{
+        display: none;
+    }
+}
+.advance{
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+.adv-bar{
+
+    img{
+        margin:15px;
+        width:150px;
+    }
+}
+.adv-bar{
+    border:1px solid gray;
+}
+
+.adv-src-txt{
+    color:red;
+    font-size: 20px;
+    margin:30px;
+}
+
+.row{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    input{
+        width: 500px;
+        height: 25px;
+        border:1px solid #e1e2e4;
+        margin-left: 10px;
+        
+    }
+    span{
+        font-family: monospace;
+        font-weight: 100;
+    }
+}
+.first-row{
+    font-weight: bold;
+    font-size: 16px;
+    color: #777;
+}
+.left-text{
+    text-align: left;
+    width: 150px;
+    padding-top: 6px
+    
+}
+.right-text{
+    margin-left: 10px;
+    vertical-align: middle;
+    position: relative;
+    padding-top: 6px
+    
+    
+}
+#f-span{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.space{
+    width: 538px;
+}
+
+.adv-btn{
+    background-color: #4d90fe;
+    color:#fff;
+    border: 1px solid #3079ed;
+    height: 30px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px;
+    min-width: 120px;
+    float: left;
+    margin: 10px 0;
+    margin-left:565px ;
+}
+.adv-btn:hover{
+    background-color: #3079ed;
+}
